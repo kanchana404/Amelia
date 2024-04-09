@@ -165,7 +165,7 @@ export default function signupPage() {
                                     id="password "
                                     value={user.password}
                                     onChange={(e) => setUser({ ...user, password: e.target.value })}
-                                    placeholder="Username" />
+                                    placeholder="Password" />
 
                             </div>
                             <br />
